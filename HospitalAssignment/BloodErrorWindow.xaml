@@ -1,0 +1,14 @@
+﻿<Window x:Class="HospitalAssignment.BloodErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HospitalAssignment"
+        mc:Ignorable="d"
+        Title="Error" Height="60" Width="325" Background="Pink"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="4,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="385"><Run Text="ERROR! Please Enter a blood type."/><InlineUIContainer>
+            </InlineUIContainer></TextBlock>
+    </Grid>
+</Window>
